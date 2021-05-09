@@ -1,0 +1,39 @@
+{
+  "name": "javascript-edm",
+  "version": "1.0.0",
+  "description": "A library to construct, parse, serialize and validate entity data models.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravikumarmistry/javascript-edm.git"
+  },
+  "keywords": [
+    "EDM",
+    "model",
+    "OData",
+    "Odata",
+    "v4"
+  ],
+  "author": "ravikumarmistry@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravikumarmistry/javascript-edm/issues"
+  },
+  "homepage": "https://github.com/ravikumarmistry/javascript-edm#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "concurrently": "^6.1.0",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "ts-jest": "^26.5.6",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "xmlbuilder2": "^2.4.1"
+  }
+}
